@@ -7,7 +7,9 @@
     <%- include ('../../partials/header') %>
 
     <%- include ('../../partials/alerts') %>
-
+    
+    <center>
+    
     <div class="container">
       <div id='first-step' class="row">
         <div class="offset2 col-md-6">
@@ -22,7 +24,7 @@
               <div id="signup_email" class="form-group">
                 <label for="id_email" class="control-label  requiredField">Email<span class="asteriskField">*</span> </label>
                 <input class="emailinput form-control" id="id_email" name="email" type="email" title="Please enter an email address" aria-describedby="emailHelp" required>
-                <small id="emailHelp" class="form-text text-muted">Some providers (like hotmail) may to block emails from OpenTrade. We recommend using <strong>gmail</strong></small>
+                <small id="emailHelp" class="form-text text-muted">Some providers (like hotmail, yahoo and others) may to block emails from us. We STRONGLY recommend using <strong>gmail.</strong> If you dont't we cannot help with any problems.</small>
                 <div class="invalid-feedback">Please enter valid email</div>
               </div>
               <div id="signup_password1" class="form-group">
@@ -58,7 +60,9 @@
         </div>
       </div>
     </div> <!-- /container -->
-
+    
+    </center>
+    
     <%- include ('../../partials/footer') %>
     <script src='/js/signup.js'></script>
   </body>
