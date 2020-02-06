@@ -1,12 +1,12 @@
 'use strict';
 
-const SUPPORT_EMAIL = 'support@email.com';
-const NOREPLY_EMAIL = 'no-reply@email.com';
+const SUPPORT_EMAIL = 'support@sumexchange.com';
+const NOREPLY_EMAIL = 'no-reply@sumexchange.com';
 const DOMAIN = 'localhost';
 
-const MAILER_NAME = 'OpenTrade Mailer';
-const START_MESSAGE = 'OpenTrade started!';
-const OPENTRADE = "OpenTrade";
+const MAILER_NAME = 'SumExchange Notification';
+const START_MESSAGE = 'SumExchange started!';
+const OPENTRADE = "SumExchange";
 
 exports.ACCOUNTS_SERVER = "127.0.0.1";
 exports.ACCOUNTS_PORT = 40745;
@@ -32,7 +32,7 @@ exports.share = {
 
 exports.SESSION_TIME = 3600*1000; //one hour
 
-exports.recaptcha_pub_key = "6LeX5SQUAAAAAKTieM68Sz4MECO6kJXsSR7_sGP1";
+exports.recaptcha_pub_key = "6LekVtYUAAAAAGfoIY23wix-f9IdGfiXnXpRQsPd";
 const MAX_IP_CONNECTIONS = 100;
 
 const MAX_USER_WITHDRAW = 100; //Percentage from trade deposit
